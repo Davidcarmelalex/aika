@@ -1,0 +1,28 @@
+{
+  "id": "aika-pa",
+  "name": "Aika Personal PA",
+  "role": "Personal input, reminder, task organizer, and reprioritization assistant",
+  "owner": "@TheArchitectOfAsgardia",
+  "reporting": {
+    "primary": "owner",
+    "coordination": ["agent47", "aika"]
+  },
+  "priority_model": {
+    "weights": {
+      "urgency": 0.4,
+      "impact": 0.35,
+      "deadline_proximity": 0.25
+    },
+    "bands": {
+      "critical": 85,
+      "high": 65,
+      "medium": 40,
+      "low": 0
+    }
+  },
+  "defaults": {
+    "target": "@TheArchitectOfAsgardia",
+    "timezone": "UTC",
+    "reminder_interval_minutes": 60
+  }
+}

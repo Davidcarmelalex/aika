@@ -1,0 +1,1827 @@
+{
+  "ts": "2026-03-07T15:48:37.987747Z",
+  "owner_agent": "Aika-Architect",
+  "mission": "Break project into composable blocks and map efficient skill-learning paths.",
+  "projects": [
+    {
+      "name": "asgardia",
+      "root": "/root/asgardia",
+      "missing": false,
+      "blocks": [
+        {
+          "id": "asgardia:agents:config",
+          "project": "asgardia",
+          "component": "agents",
+          "type": "config",
+          "files": 20,
+          "sample_paths": [
+            "agents/aika-pa/profile.json",
+            "agents/aika/hafiz.json",
+            "agents/aika/jasaf.json",
+            "agents/aika/nayana.json",
+            "agents/aika/naizam.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "asgardia:agents:other",
+          "project": "asgardia",
+          "component": "agents",
+          "type": "other",
+          "files": 5,
+          "sample_paths": [
+            "agents/ephemeral/SYNC-2/output/command_center_tree.txt",
+            "agents/ephemeral/SYNC-2/output/log.txt",
+            "agents/ephemeral/SYNC-2/output/voltex_tree.txt",
+            "agents/ephemeral/SYNC-1/output/log.txt",
+            "agents/ephemeral/SYNC-1/output/db_schema.sql"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "asgardia:agents:python_service",
+          "project": "asgardia",
+          "component": "agents",
+          "type": "python_service",
+          "files": 1,
+          "sample_paths": [
+            "agents/ephemeral/SYNC-2/output/brain_snippet.py"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "asgardia:apps:config",
+          "project": "asgardia",
+          "component": "apps",
+          "type": "config",
+          "files": 129,
+          "sample_paths": [
+            "apps/grosphereinternal-android/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json",
+            "apps/grosphereinternal-android/app/build/intermediates/processed_res/debug/out/output-metadata.json",
+            "apps/grosphereinternal-android/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json",
+            "apps/grosphereinternal-android/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json",
+            "apps/grosphereinternal-android/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "asgardia:apps:docs",
+          "project": "asgardia",
+          "component": "apps",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "apps/command-lantern/README.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "asgardia:apps:frontend",
+          "project": "asgardia",
+          "component": "apps",
+          "type": "frontend",
+          "files": 7,
+          "sample_paths": [
+            "apps/command-lantern/index.html",
+            "apps/command-lantern/styles.css",
+            "apps/grosphereinternal-android/build/reports/problems/problems-report.html",
+            "apps/grosphereinternal-android/app/build/intermediates/assets/debug/index.html",
+            "apps/grosphereinternal-android/app/build/intermediates/assets/debug/styles.css"
+          ],
+          "skills": [
+            "frontend-engineering"
+          ]
+        },
+        {
+          "id": "asgardia:apps:node_service",
+          "project": "asgardia",
+          "component": "apps",
+          "type": "node_service",
+          "files": 3,
+          "sample_paths": [
+            "apps/command-lantern/app.js",
+            "apps/grosphereinternal-android/app/build/intermediates/assets/debug/app.js",
+            "apps/grosphereinternal-android/app/src/main/assets/app.js"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "asgardia:apps:other",
+          "project": "asgardia",
+          "component": "apps",
+          "type": "other",
+          "files": 467,
+          "sample_paths": [
+            "apps/grosphereinternal-android/gradlew.bat",
+            "apps/grosphereinternal-android/build.gradle",
+            "apps/grosphereinternal-android/settings.gradle",
+            "apps/grosphereinternal-android/gradlew",
+            "apps/grosphereinternal-android/gradle.properties"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "asgardia:asgardia_backup.tar.gz:other",
+          "project": "asgardia",
+          "component": "asgardia_backup.tar.gz",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "asgardia_backup.tar.gz"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "asgardia:bundles:other",
+          "project": "asgardia",
+          "component": "bundles",
+          "type": "other",
+          "files": 2,
+          "sample_paths": [
+            "bundles/affiliate_backend_bundle_20260305T153331Z.tar.gz",
+            "bundles/voltexgaming_bundle_20260305T154416Z.tar.gz"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "asgardia:config:config",
+          "project": "asgardia",
+          "component": "config",
+          "type": "config",
+          "files": 13,
+          "sample_paths": [
+            "config/registry.json",
+            "config/principal_value.json",
+            "config/guardrails.json",
+            "config/twilio.env",
+            "config/slack.env"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "asgardia:config:other",
+          "project": "asgardia",
+          "component": "config",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "config/twilio.env.bak.1772607978"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "asgardia:docs:docs",
+          "project": "asgardia",
+          "component": "docs",
+          "type": "docs",
+          "files": 33,
+          "sample_paths": [
+            "docs/AGENT_SKILL_MATRIX.md",
+            "docs/AUTONOMOUS_ROLLOUT_DETAILED_REPORT_2026-03-05.md",
+            "docs/MIRROR_PRO_LEVEL_PLAYBOOK.md",
+            "docs/CORE_EXECUTION_DEPTH_REPORT_2026-03-05.md",
+            "docs/DEBIAN_UAE_SHOCK_VALUATION_REPORT_2026-03-05.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "asgardia:labels:config",
+          "project": "asgardia",
+          "component": "labels",
+          "type": "config",
+          "files": 1,
+          "sample_paths": [
+            "labels/taxonomy.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "asgardia:logs:other",
+          "project": "asgardia",
+          "component": "logs",
+          "type": "other",
+          "files": 22,
+          "sample_paths": [
+            "logs/mcp_tactical.log",
+            "logs/ecosystem_probe.log",
+            "logs/twilio_autocall.log",
+            "logs/mcp_jasaf.log",
+            "logs/mcp_naizam.log"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "asgardia:mcp:config",
+          "project": "asgardia",
+          "component": "mcp",
+          "type": "config",
+          "files": 4,
+          "sample_paths": [
+            "mcp/jasaf-server/config.json",
+            "mcp/architect-server/config.json",
+            "mcp/naizam-server/config.json",
+            "mcp/hafiz-server/config.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "asgardia:mcp:infra",
+          "project": "asgardia",
+          "component": "mcp",
+          "type": "infra",
+          "files": 4,
+          "sample_paths": [
+            "mcp/jasaf-server/asgardia-mcp-jasaf.service",
+            "mcp/architect-server/asgardia-mcp-architect.service",
+            "mcp/naizam-server/asgardia-mcp-naizam.service",
+            "mcp/tactical-server/asgardia-mcp-tactical.service"
+          ],
+          "skills": [
+            "deployment",
+            "ops-reliability"
+          ]
+        },
+        {
+          "id": "asgardia:mcp:python_service",
+          "project": "asgardia",
+          "component": "mcp",
+          "type": "python_service",
+          "files": 5,
+          "sample_paths": [
+            "mcp/jasaf-server/server.py",
+            "mcp/architect-server/server.py",
+            "mcp/naizam-server/server.py",
+            "mcp/hafiz-server/server.py",
+            "mcp/tactical-server/server.py"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "asgardia:ollama_modelfiles:other",
+          "project": "asgardia",
+          "component": "ollama_modelfiles",
+          "type": "other",
+          "files": 3,
+          "sample_paths": [
+            "ollama_modelfiles/asgardia-postman.modelfile",
+            "ollama_modelfiles/asgardia-lysander.modelfile",
+            "ollama_modelfiles/asgardia-ultra-light.modelfile"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "asgardia:ops:infra",
+          "project": "asgardia",
+          "component": "ops",
+          "type": "infra",
+          "files": 7,
+          "sample_paths": [
+            "ops/systemd/asgardia-audit-scan-mail-loop.service",
+            "ops/systemd/asgardia-mail-backbone.timer",
+            "ops/systemd/asgardia-gmail-backbone.service",
+            "ops/systemd/asgardia-edge-agent.service",
+            "ops/systemd/asgardia-audit-scan-mail-loop.timer"
+          ],
+          "skills": [
+            "deployment",
+            "ops-reliability"
+          ]
+        },
+        {
+          "id": "asgardia:ops:other",
+          "project": "asgardia",
+          "component": "ops",
+          "type": "other",
+          "files": 17,
+          "sample_paths": [
+            "ops/spawn_agent.sh",
+            "ops/autonomy_loop.sh",
+            "ops/startup_vitals.sh",
+            "ops/retire_agent.sh",
+            "ops/code_green.sh"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "asgardia:ops:python_service",
+          "project": "asgardia",
+          "component": "ops",
+          "type": "python_service",
+          "files": 24,
+          "sample_paths": [
+            "ops/index_grosphere_exports.py",
+            "ops/no_change_24h_audit_alert.py",
+            "ops/task_add.py",
+            "ops/aika_eleven_connector.py",
+            "ops/hafiz_ack_tracker.py"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "asgardia:skills:python_service",
+          "project": "asgardia",
+          "component": "skills",
+          "type": "python_service",
+          "files": 3,
+          "sample_paths": [
+            "skills/scraper/scrape.py",
+            "skills/scraper/ghost_engine.py",
+            "skills/indexing/vox_summarizer.py"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "asgardia:state:config",
+          "project": "asgardia",
+          "component": "state",
+          "type": "config",
+          "files": 80,
+          "sample_paths": [
+            "state/all_machine_scan_audit_20260305T172712Z.json",
+            "state/twilio_autocall_status.json",
+            "state/UNIVERSE_DEEP_AUDIT_2026-03-05.json",
+            "state/fleet_nodes.json",
+            "state/gmail_mail_status.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "asgardia:state:docs",
+          "project": "asgardia",
+          "component": "state",
+          "type": "docs",
+          "files": 3,
+          "sample_paths": [
+            "state/master_handover_latest.md",
+            "state/ASGARDIA_ONE_MASTER_FILE.md",
+            "state/backups/AUTONOMOUS_ROLLOUT_DETAILED_REPORT_2026-03-05_20260305T154541Z.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "asgardia:state:other",
+          "project": "asgardia",
+          "component": "state",
+          "type": "other",
+          "files": 6,
+          "sample_paths": [
+            "state/grosphereinternal_apk_live_url.txt",
+            "state/secrets_master.env.enc",
+            "state/asgardia_universe_full_directory_20260306T195303Z.txt",
+            "state/contacts_master_sheet.csv",
+            "state/.secrets_master.key"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "asgardia:vault:config",
+          "project": "asgardia",
+          "component": "vault",
+          "type": "config",
+          "files": 1,
+          "sample_paths": [
+            "vault/access_codes.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "asgardia:web3:docs",
+          "project": "asgardia",
+          "component": "web3",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "web3/README.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "asgardia:web3:other",
+          "project": "asgardia",
+          "component": "web3",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "web3/contracts/AsgardiaNodeRegistry.sol"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ayooni",
+      "root": "/root/ayooni",
+      "missing": false,
+      "blocks": [
+        {
+          "id": "ayooni:.env:config",
+          "project": "ayooni",
+          "component": ".env",
+          "type": "config",
+          "files": 1,
+          "sample_paths": [
+            ".env"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "ayooni:.env.example:other",
+          "project": "ayooni",
+          "component": ".env.example",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            ".env.example"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:AETHER:docs",
+          "project": "ayooni",
+          "component": "AETHER",
+          "type": "docs",
+          "files": 5,
+          "sample_paths": [
+            "AETHER/TASK_MEMORY.md",
+            "AETHER/SKILLS.md",
+            "AETHER/TRAINING_LOG.md",
+            "AETHER/SYSTEM_STATE.md",
+            "AETHER/IDENTITY.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "ayooni:INDUCTION_MASTER.md:docs",
+          "project": "ayooni",
+          "component": "INDUCTION_MASTER.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "INDUCTION_MASTER.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "ayooni:assets:config",
+          "project": "ayooni",
+          "component": "assets",
+          "type": "config",
+          "files": 1,
+          "sample_paths": [
+            "assets/ayooni_activation.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "ayooni:assets:other",
+          "project": "ayooni",
+          "component": "assets",
+          "type": "other",
+          "files": 2,
+          "sample_paths": [
+            "assets/ayooni_logo.svg",
+            "assets/ayooni_logo.png"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:ayooni.db:other",
+          "project": "ayooni",
+          "component": "ayooni.db",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "ayooni.db"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:ayooni.pid:other",
+          "project": "ayooni",
+          "component": "ayooni.pid",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "ayooni.pid"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:bin:other",
+          "project": "ayooni",
+          "component": "bin",
+          "type": "other",
+          "files": 6,
+          "sample_paths": [
+            "bin/ayooni-control",
+            "bin/ayooni-status",
+            "bin/ayooni-stop",
+            "bin/ayooni",
+            "bin/ayooni-awaken"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:command-center:config",
+          "project": "ayooni",
+          "component": "command-center",
+          "type": "config",
+          "files": 1,
+          "sample_paths": [
+            "command-center/.env"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "ayooni:command-center:docs",
+          "project": "ayooni",
+          "component": "command-center",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "command-center/README.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "ayooni:command-center:node_service",
+          "project": "ayooni",
+          "component": "command-center",
+          "type": "node_service",
+          "files": 2,
+          "sample_paths": [
+            "command-center/package.json",
+            "command-center/server.js"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "ayooni:command-center:other",
+          "project": "ayooni",
+          "component": "command-center",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "command-center/.env.example"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:command-center.pid:other",
+          "project": "ayooni",
+          "component": "command-center.pid",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "command-center.pid"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:config:config",
+          "project": "ayooni",
+          "component": "config",
+          "type": "config",
+          "files": 1,
+          "sample_paths": [
+            "config/ayooni.yaml"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "ayooni:control:docs",
+          "project": "ayooni",
+          "component": "control",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "control/MASTER_CONTEXT.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "ayooni:core:python_service",
+          "project": "ayooni",
+          "component": "core",
+          "type": "python_service",
+          "files": 1,
+          "sample_paths": [
+            "core/brain.py"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "ayooni:interface:node_service",
+          "project": "ayooni",
+          "component": "interface",
+          "type": "node_service",
+          "files": 4,
+          "sample_paths": [
+            "interface/package.json",
+            "interface/awaken.js",
+            "interface/ascii_torus.js",
+            "interface/starfield.js"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "ayooni:logs:other",
+          "project": "ayooni",
+          "component": "logs",
+          "type": "other",
+          "files": 2,
+          "sample_paths": [
+            "logs/command-center.log",
+            "logs/ayooni.log"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:memory:docs",
+          "project": "ayooni",
+          "component": "memory",
+          "type": "docs",
+          "files": 3,
+          "sample_paths": [
+            "memory/TRAINING_LOG.md",
+            "memory/SYSTEM_STATE.md",
+            "memory/SKILLS_REGISTRY.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "ayooni:ops:other",
+          "project": "ayooni",
+          "component": "ops",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "ops/telegram_heartbeat.py.bak_20260305_075748"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:ops:python_service",
+          "project": "ayooni",
+          "component": "ops",
+          "type": "python_service",
+          "files": 1,
+          "sample_paths": [
+            "ops/telegram_heartbeat.py"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "ayooni:src:config",
+          "project": "ayooni",
+          "component": "src",
+          "type": "config",
+          "files": 34,
+          "sample_paths": [
+            "src/ayooni/pnpm-lock.yaml",
+            "src/ayooni/pnpm-workspace.yaml",
+            "src/ayooni/biome.json",
+            "src/ayooni/tsconfig.json",
+            "src/ayooni/.goreleaser.yml"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "ayooni:src:docs",
+          "project": "ayooni",
+          "component": "src",
+          "type": "docs",
+          "files": 58,
+          "sample_paths": [
+            "src/ayooni/README.md",
+            "src/ayooni/CLAUDE.md",
+            "src/ayooni/workspaces.md",
+            "src/ayooni/docs/brand.md",
+            "src/ayooni/docs/agents/DESIGN.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "ayooni:src:frontend",
+          "project": "ayooni",
+          "component": "src",
+          "type": "frontend",
+          "files": 16,
+          "sample_paths": [
+            "src/ayooni/packages/ui/vite.config.ts",
+            "src/ayooni/packages/ui/src/app.html",
+            "src/ayooni/packages/ui/src/app.css",
+            "src/ayooni/packages/ui/src/app.d.ts",
+            "src/ayooni/packages/ui/src/lib/notify.ts"
+          ],
+          "skills": [
+            "frontend-engineering"
+          ]
+        },
+        {
+          "id": "ayooni:src:go_service",
+          "project": "ayooni",
+          "component": "src",
+          "type": "go_service",
+          "files": 139,
+          "sample_paths": [
+            "src/ayooni/generate.go",
+            "src/ayooni/main.go",
+            "src/ayooni/packages/ui/fs.go",
+            "src/ayooni/packages/ui/build.go",
+            "src/ayooni/pkg/tools/service.go"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "ayooni:src:infra",
+          "project": "ayooni",
+          "component": "src",
+          "type": "infra",
+          "files": 1,
+          "sample_paths": [
+            "src/ayooni/Dockerfile"
+          ],
+          "skills": [
+            "deployment",
+            "ops-reliability"
+          ]
+        },
+        {
+          "id": "ayooni:src:node_service",
+          "project": "ayooni",
+          "component": "src",
+          "type": "node_service",
+          "files": 4,
+          "sample_paths": [
+            "src/ayooni/package.json",
+            "src/ayooni/packages/ui/package.json",
+            "src/ayooni/packages/ui/eslint.config.js",
+            "src/ayooni/packages/ui/svelte.config.js"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "ayooni:src:other",
+          "project": "ayooni",
+          "component": "src",
+          "type": "other",
+          "files": 48,
+          "sample_paths": [
+            "src/ayooni/Makefile",
+            "src/ayooni/go.mod",
+            "src/ayooni/go.sum",
+            "src/ayooni/LICENSE",
+            "src/ayooni/.gitignore"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:start-command-center.sh:other",
+          "project": "ayooni",
+          "component": "start-command-center.sh",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "start-command-center.sh"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:status-command-center.sh:other",
+          "project": "ayooni",
+          "component": "status-command-center.sh",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "status-command-center.sh"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "ayooni:stop-command-center.sh:other",
+          "project": "ayooni",
+          "component": "stop-command-center.sh",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "stop-command-center.sh"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "voltex",
+      "root": "/root/voltex",
+      "missing": false,
+      "blocks": [
+        {
+          "id": "voltex:.env:config",
+          "project": "voltex",
+          "component": ".env",
+          "type": "config",
+          "files": 1,
+          "sample_paths": [
+            ".env"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "voltex:.env.bak.20260220_195508:other",
+          "project": "voltex",
+          "component": ".env.bak.20260220_195508",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            ".env.bak.20260220_195508"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:ANALYTICS_EVENT_MAP.md:docs",
+          "project": "voltex",
+          "component": "ANALYTICS_EVENT_MAP.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "ANALYTICS_EVENT_MAP.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:BUSINESS_MODEL.md:docs",
+          "project": "voltex",
+          "component": "BUSINESS_MODEL.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "BUSINESS_MODEL.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:DESIGN_SYSTEM.md:docs",
+          "project": "voltex",
+          "component": "DESIGN_SYSTEM.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "DESIGN_SYSTEM.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:INFRA_BLUEPRINT_V1.md:docs",
+          "project": "voltex",
+          "component": "INFRA_BLUEPRINT_V1.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "INFRA_BLUEPRINT_V1.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:LAUNCH_CHECKLIST.md:docs",
+          "project": "voltex",
+          "component": "LAUNCH_CHECKLIST.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "LAUNCH_CHECKLIST.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:MASTER_FILE.md:docs",
+          "project": "voltex",
+          "component": "MASTER_FILE.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "MASTER_FILE.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:RUNBOOK.md:docs",
+          "project": "voltex",
+          "component": "RUNBOOK.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "RUNBOOK.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:TECHSHEET.md:docs",
+          "project": "voltex",
+          "component": "TECHSHEET.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "TECHSHEET.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:VOLTEXGAMING_MASTER_TRAINING.md:docs",
+          "project": "voltex",
+          "component": "VOLTEXGAMING_MASTER_TRAINING.md",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "VOLTEXGAMING_MASTER_TRAINING.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:apk:config",
+          "project": "voltex",
+          "component": "apk",
+          "type": "config",
+          "files": 132,
+          "sample_paths": [
+            "apk/voltex-android/app/build/intermediates/optimized_processed_res/release/optimizeReleaseResources/output-metadata.json",
+            "apk/voltex-android/app/build/intermediates/shrunk_processed_res/release/shrinkReleaseRes/output-metadata.json",
+            "apk/voltex-android/app/build/intermediates/signing_config_versions/release/writeReleaseSigningConfigVersions/signing-config-versions.json",
+            "apk/voltex-android/app/build/intermediates/processed_res/release/processReleaseResources/out/output-metadata.json",
+            "apk/voltex-android/app/build/intermediates/merged_res_blame_folder/release/mergeReleaseResources/out/multi-v2/values-night-v8.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "voltex:apk:docs",
+          "project": "voltex",
+          "component": "apk",
+          "type": "docs",
+          "files": 2,
+          "sample_paths": [
+            "apk/README.md",
+            "apk/DEVICE_QA_15MIN.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:apk:frontend",
+          "project": "voltex",
+          "component": "apk",
+          "type": "frontend",
+          "files": 1,
+          "sample_paths": [
+            "apk/voltex-android/app/build/reports/lint-results-release.html"
+          ],
+          "skills": [
+            "frontend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:apk:other",
+          "project": "voltex",
+          "component": "apk",
+          "type": "other",
+          "files": 2158,
+          "sample_paths": [
+            "apk/keystore/voltex-release.jks",
+            "apk/release/voltexgaming-v1-aligned.apk",
+            "apk/release/voltexgaming-v1-unsigned.apk",
+            "apk/release/voltexgaming-v1-signed.apk",
+            "apk/release/voltexgaming-v1-signed.apk.idsig"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:backups:other",
+          "project": "voltex",
+          "component": "backups",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "backups/backup_20260220_190133.tar.gz"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:data:config",
+          "project": "voltex",
+          "component": "data",
+          "type": "config",
+          "files": 76,
+          "sample_paths": [
+            "data/openclaw/.openclaw/openclaw.json",
+            "data/openclaw/.openclaw/update-check.json",
+            "data/openclaw/.openclaw/cron/jobs.json",
+            "data/openclaw/.openclaw/agents/main/sessions/sessions.json",
+            "data/openclaw/.openclaw/agents/main/agent/auth-profiles.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "voltex:data:docs",
+          "project": "voltex",
+          "component": "data",
+          "type": "docs",
+          "files": 114,
+          "sample_paths": [
+            "data/openclaw/.openclaw/workspace/SOUL.md",
+            "data/openclaw/.openclaw/workspace/USER.md",
+            "data/openclaw/.openclaw/workspace/BOOT.md",
+            "data/openclaw/.openclaw/workspace/MEMORY.md",
+            "data/openclaw/.openclaw/workspace/IDENTITY.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:data:frontend",
+          "project": "voltex",
+          "component": "data",
+          "type": "frontend",
+          "files": 3,
+          "sample_paths": [
+            "data/openclaw/.openclaw/canvas/index.html",
+            "data/openclaw/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0/rdoc/generator/template/darkfish/css/fonts.css",
+            "data/openclaw/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0/rdoc/generator/template/darkfish/css/rdoc.css"
+          ],
+          "skills": [
+            "frontend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:data:infra",
+          "project": "voltex",
+          "component": "data",
+          "type": "infra",
+          "files": 1,
+          "sample_paths": [
+            "data/openclaw/linuxbrew/.linuxbrew/Homebrew/Dockerfile"
+          ],
+          "skills": [
+            "deployment",
+            "ops-reliability"
+          ]
+        },
+        {
+          "id": "voltex:data:node_service",
+          "project": "voltex",
+          "component": "data",
+          "type": "node_service",
+          "files": 4,
+          "sample_paths": [
+            "data/openclaw/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0/rdoc/generator/template/darkfish/js/search.js",
+            "data/openclaw/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0/rdoc/generator/template/darkfish/js/darkfish.js",
+            "data/openclaw/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0/rdoc/generator/template/json_index/js/navigation.js",
+            "data/openclaw/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/lib/ruby/3.4.0/rdoc/generator/template/json_index/js/searcher.js"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:data:other",
+          "project": "voltex",
+          "component": "data",
+          "type": "other",
+          "files": 6274,
+          "sample_paths": [
+            "data/leads.jsonl.bak_20260226_091740",
+            "data/subscriptions.jsonl",
+            "data/subscriptions.jsonl.bak_20260226_091740",
+            "data/leads.jsonl",
+            "data/postgres_init_legacy_1771495627/01-init.sql"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:docker-compose.yml:infra",
+          "project": "voltex",
+          "component": "docker-compose.yml",
+          "type": "infra",
+          "files": 1,
+          "sample_paths": [
+            "docker-compose.yml"
+          ],
+          "skills": [
+            "deployment",
+            "ops-reliability"
+          ]
+        },
+        {
+          "id": "voltex:docs:docs",
+          "project": "voltex",
+          "component": "docs",
+          "type": "docs",
+          "files": 42,
+          "sample_paths": [
+            "docs/CANNED_REPLIES.md",
+            "docs/USER_FAQ.md",
+            "docs/TEAM_LEADER_SOP.md",
+            "docs/voltexgaming-buyer-pack/08_ip_and_asset_register.md",
+            "docs/voltexgaming-buyer-pack/07_scalability_and_operations_brief.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:infra:config",
+          "project": "voltex",
+          "component": "infra",
+          "type": "config",
+          "files": 2,
+          "sample_paths": [
+            "infra/deploy/docker-compose.infra.yml",
+            "infra/schemas/events.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "voltex:messages:other",
+          "project": "voltex",
+          "component": "messages",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "messages/friend_hello.txt"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:ops:config",
+          "project": "voltex",
+          "component": "ops",
+          "type": "config",
+          "files": 1,
+          "sample_paths": [
+            "ops/admins.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "voltex:ops:docs",
+          "project": "voltex",
+          "component": "ops",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "ops/README.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:ops:infra",
+          "project": "voltex",
+          "component": "ops",
+          "type": "infra",
+          "files": 4,
+          "sample_paths": [
+            "ops/install-systemd.sh",
+            "ops/systemd/voltex-guardian.service",
+            "ops/systemd/voltex-autostart.service",
+            "ops/systemd/voltex-guardian.timer"
+          ],
+          "skills": [
+            "deployment",
+            "ops-reliability"
+          ]
+        },
+        {
+          "id": "voltex:ops:other",
+          "project": "voltex",
+          "component": "ops",
+          "type": "other",
+          "files": 14,
+          "sample_paths": [
+            "ops/rotate_admin_token.sh",
+            "ops/autostart.sh",
+            "ops/production_preflight_sample.sh",
+            "ops/secrets_audit_20260220_190248.txt",
+            "ops/guardian.sh"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:package-lock.json:config",
+          "project": "voltex",
+          "component": "package-lock.json",
+          "type": "config",
+          "files": 1,
+          "sample_paths": [
+            "package-lock.json"
+          ],
+          "skills": [
+            "config-governance"
+          ]
+        },
+        {
+          "id": "voltex:package.json:node_service",
+          "project": "voltex",
+          "component": "package.json",
+          "type": "node_service",
+          "files": 1,
+          "sample_paths": [
+            "package.json"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:services:frontend",
+          "project": "voltex",
+          "component": "services",
+          "type": "frontend",
+          "files": 1,
+          "sample_paths": [
+            "services/api/static/index.html"
+          ],
+          "skills": [
+            "frontend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:services:infra",
+          "project": "voltex",
+          "component": "services",
+          "type": "infra",
+          "files": 4,
+          "sample_paths": [
+            "services/bot/Dockerfile",
+            "services/sentinel/Dockerfile",
+            "services/customer_agent/Dockerfile",
+            "services/api/Dockerfile"
+          ],
+          "skills": [
+            "deployment",
+            "ops-reliability"
+          ]
+        },
+        {
+          "id": "voltex:services:node_service",
+          "project": "voltex",
+          "component": "services",
+          "type": "node_service",
+          "files": 1,
+          "sample_paths": [
+            "services/sentinel/hermes.js"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:services:other",
+          "project": "voltex",
+          "component": "services",
+          "type": "other",
+          "files": 5,
+          "sample_paths": [
+            "services/bot/requirements.txt",
+            "services/customer_agent/requirements.txt",
+            "services/api/requirements.txt",
+            "services/customer_agent/__pycache__/agent.cpython-312.pyc",
+            "services/api/__pycache__/main.cpython-312.pyc"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:services:python_service",
+          "project": "voltex",
+          "component": "services",
+          "type": "python_service",
+          "files": 4,
+          "sample_paths": [
+            "services/bot/main.py",
+            "services/sentinel/sentinel.py",
+            "services/customer_agent/agent.py",
+            "services/api/main.py"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:site:frontend",
+          "project": "voltex",
+          "component": "site",
+          "type": "frontend",
+          "files": 5,
+          "sample_paths": [
+            "site/index.html",
+            "site/styles.css",
+            "site/plans/index.html",
+            "site/admin/index.html",
+            "site/pricing/index.html"
+          ],
+          "skills": [
+            "frontend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:site:node_service",
+          "project": "voltex",
+          "component": "site",
+          "type": "node_service",
+          "files": 2,
+          "sample_paths": [
+            "site/sw.js",
+            "site/app.js"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:site:other",
+          "project": "voltex",
+          "component": "site",
+          "type": "other",
+          "files": 8,
+          "sample_paths": [
+            "site/icon-512.png",
+            "site/manifest.webmanifest",
+            "site/sitemap.xml",
+            "site/icon-192.png",
+            "site/favicon.ico"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:site:python_service",
+          "project": "voltex",
+          "component": "site",
+          "type": "python_service",
+          "files": 1,
+          "sample_paths": [
+            "site/lead_api.py"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:voltex_full_directory.txt:other",
+          "project": "voltex",
+          "component": "voltex_full_directory.txt",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "voltex_full_directory.txt"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:voltex_snapshot.txt:other",
+          "project": "voltex",
+          "component": "voltex_snapshot.txt",
+          "type": "other",
+          "files": 1,
+          "sample_paths": [
+            "voltex_snapshot.txt"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:voltexgaming-vps:docs",
+          "project": "voltex",
+          "component": "voltexgaming-vps",
+          "type": "docs",
+          "files": 1,
+          "sample_paths": [
+            "voltexgaming-vps/README.md"
+          ],
+          "skills": [
+            "knowledge-distillation"
+          ]
+        },
+        {
+          "id": "voltex:voltexgaming-vps:infra",
+          "project": "voltex",
+          "component": "voltexgaming-vps",
+          "type": "infra",
+          "files": 2,
+          "sample_paths": [
+            "voltexgaming-vps/docker-compose.yml",
+            "voltexgaming-vps/Dockerfile"
+          ],
+          "skills": [
+            "deployment",
+            "ops-reliability"
+          ]
+        },
+        {
+          "id": "voltex:voltexgaming-vps:node_service",
+          "project": "voltex",
+          "component": "voltexgaming-vps",
+          "type": "node_service",
+          "files": 2,
+          "sample_paths": [
+            "voltexgaming-vps/algorithms/hybrid_growth_2_3.js",
+            "voltexgaming-vps/algorithms/hg_lq_dyn_a.js"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        },
+        {
+          "id": "voltex:voltexgaming-vps:other",
+          "project": "voltex",
+          "component": "voltexgaming-vps",
+          "type": "other",
+          "files": 20,
+          "sample_paths": [
+            "voltexgaming-vps/requirements.txt",
+            "voltexgaming-vps/.env.example",
+            "voltexgaming-vps/db/init.sql",
+            "voltexgaming-vps/__pycache__/admin_panel.cpython-312.pyc",
+            "voltexgaming-vps/__pycache__/main.cpython-312.pyc"
+          ],
+          "skills": [
+            "general-analysis"
+          ]
+        },
+        {
+          "id": "voltex:voltexgaming-vps:python_service",
+          "project": "voltex",
+          "component": "voltexgaming-vps",
+          "type": "python_service",
+          "files": 16,
+          "sample_paths": [
+            "voltexgaming-vps/admin_panel.py",
+            "voltexgaming-vps/main.py",
+            "voltexgaming-vps/agents/ayooni.py",
+            "voltexgaming-vps/agents/ops_agent.py",
+            "voltexgaming-vps/agents/sales_agent.py"
+          ],
+          "skills": [
+            "backend-engineering"
+          ]
+        }
+      ]
+    }
+  ],
+  "learning_tracks": {
+    "foundation": [
+      "asgardia:agents:config",
+      "asgardia:apps:config",
+      "asgardia:apps:docs",
+      "asgardia:config:config",
+      "asgardia:docs:docs",
+      "asgardia:labels:config",
+      "asgardia:mcp:config",
+      "asgardia:state:config",
+      "asgardia:state:docs",
+      "asgardia:vault:config",
+      "asgardia:web3:docs",
+      "ayooni:.env:config",
+      "ayooni:AETHER:docs",
+      "ayooni:INDUCTION_MASTER.md:docs",
+      "ayooni:assets:config",
+      "ayooni:command-center:config",
+      "ayooni:command-center:docs",
+      "ayooni:config:config",
+      "ayooni:control:docs",
+      "ayooni:memory:docs",
+      "ayooni:src:config",
+      "ayooni:src:docs",
+      "voltex:.env:config",
+      "voltex:ANALYTICS_EVENT_MAP.md:docs",
+      "voltex:BUSINESS_MODEL.md:docs",
+      "voltex:DESIGN_SYSTEM.md:docs",
+      "voltex:INFRA_BLUEPRINT_V1.md:docs",
+      "voltex:LAUNCH_CHECKLIST.md:docs",
+      "voltex:MASTER_FILE.md:docs",
+      "voltex:RUNBOOK.md:docs",
+      "voltex:TECHSHEET.md:docs",
+      "voltex:VOLTEXGAMING_MASTER_TRAINING.md:docs",
+      "voltex:apk:config",
+      "voltex:apk:docs",
+      "voltex:data:config",
+      "voltex:data:docs",
+      "voltex:docs:docs",
+      "voltex:infra:config",
+      "voltex:ops:config",
+      "voltex:ops:docs",
+      "voltex:package-lock.json:config",
+      "voltex:voltexgaming-vps:docs"
+    ],
+    "execution": [
+      "asgardia:agents:python_service",
+      "asgardia:apps:frontend",
+      "asgardia:apps:node_service",
+      "asgardia:mcp:python_service",
+      "asgardia:ops:python_service",
+      "asgardia:skills:python_service",
+      "ayooni:command-center:node_service",
+      "ayooni:core:python_service",
+      "ayooni:interface:node_service",
+      "ayooni:ops:python_service",
+      "ayooni:src:frontend",
+      "ayooni:src:go_service",
+      "ayooni:src:node_service",
+      "voltex:apk:frontend",
+      "voltex:data:frontend",
+      "voltex:data:node_service",
+      "voltex:package.json:node_service",
+      "voltex:services:frontend",
+      "voltex:services:node_service",
+      "voltex:services:python_service",
+      "voltex:site:frontend",
+      "voltex:site:node_service",
+      "voltex:site:python_service",
+      "voltex:voltexgaming-vps:node_service",
+      "voltex:voltexgaming-vps:python_service"
+    ],
+    "scale": [
+      "asgardia:agents:other",
+      "asgardia:apps:other",
+      "asgardia:asgardia_backup.tar.gz:other",
+      "asgardia:bundles:other",
+      "asgardia:config:other",
+      "asgardia:logs:other",
+      "asgardia:mcp:infra",
+      "asgardia:ollama_modelfiles:other",
+      "asgardia:ops:infra",
+      "asgardia:ops:other",
+      "asgardia:state:other",
+      "asgardia:web3:other",
+      "ayooni:.env.example:other",
+      "ayooni:assets:other",
+      "ayooni:ayooni.db:other",
+      "ayooni:ayooni.pid:other",
+      "ayooni:bin:other",
+      "ayooni:command-center.pid:other",
+      "ayooni:command-center:other",
+      "ayooni:logs:other",
+      "ayooni:ops:other",
+      "ayooni:src:infra",
+      "ayooni:src:other",
+      "ayooni:start-command-center.sh:other",
+      "ayooni:status-command-center.sh:other",
+      "ayooni:stop-command-center.sh:other",
+      "voltex:.env.bak.20260220_195508:other",
+      "voltex:apk:other",
+      "voltex:backups:other",
+      "voltex:data:infra",
+      "voltex:data:other",
+      "voltex:docker-compose.yml:infra",
+      "voltex:messages:other",
+      "voltex:ops:infra",
+      "voltex:ops:other",
+      "voltex:services:infra",
+      "voltex:services:other",
+      "voltex:site:other",
+      "voltex:voltex_full_directory.txt:other",
+      "voltex:voltex_snapshot.txt:other",
+      "voltex:voltexgaming-vps:infra",
+      "voltex:voltexgaming-vps:other"
+    ]
+  },
+  "aika_agents": [
+    {
+      "id": "Aika-Architect",
+      "file": "/root/asgardia/agents/aika/architect.json",
+      "persona": "David Carmel Alex \u2014 The Architect",
+      "priority": "GOAT",
+      "voice": "Adam",
+      "skills": [
+        "cross-domain synthesis",
+        "frontier sciences",
+        "system architecture",
+        "research distillation",
+        "civilisational design"
+      ]
+    },
+    {
+      "id": "Aika-Hafiz",
+      "file": "/root/asgardia/agents/aika/hafiz.json",
+      "persona": "Hafiz Uncle \u2014 CMO Onboarding",
+      "priority": "Operator",
+      "voice": "Josh",
+      "skills": [
+        "market outreach",
+        "forex and market communication",
+        "partner qualification",
+        "campaign planning",
+        "lead development"
+      ]
+    },
+    {
+      "id": "Aika-Jasaf",
+      "file": "/root/asgardia/agents/aika/jasaf.json",
+      "persona": "Jasaf",
+      "priority": "Triad",
+      "voice": "Antoni",
+      "skills": [
+        "product strategy",
+        "client delivery",
+        "GTM execution",
+        "ecosystem coordination",
+        "stakeholder comms"
+      ]
+    },
+    {
+      "id": "Aika-Naizam",
+      "file": "/root/asgardia/agents/aika/naizam.json",
+      "persona": "Naizam",
+      "priority": "Triad",
+      "voice": "Josh",
+      "skills": [
+        "infrastructure ops",
+        "Docker orchestration",
+        "deployment",
+        "network security",
+        "system monitoring"
+      ]
+    },
+    {
+      "id": "Aika-Nayana",
+      "file": "/root/asgardia/agents/aika/nayana.json",
+      "persona": "Nayana \u2014 The Anchor",
+      "priority": "NAYANA_PROTOCOL",
+      "voice": "Bella",
+      "skills": [
+        "vitals monitoring",
+        "wellness protocols",
+        "priority alerts",
+        "family comms",
+        "emotional grounding"
+      ]
+    }
+  ],
+  "elevenlabs": {
+    "configured": true,
+    "reachable": false,
+    "voices_loaded": false,
+    "voice_map_entries": 4,
+    "checked_at": "2026-03-07T15:48:37.600941Z",
+    "http_error": 401
+  }
+}

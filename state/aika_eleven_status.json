@@ -1,0 +1,12 @@
+{
+  "ts": "2026-03-05T16:00:33.156279Z",
+  "ok": false,
+  "api_key_configured": true,
+  "agents_list_http": 200,
+  "agent_id": "agent_1501kjqtyt8ne4htxtn79ghv65qr",
+  "phone_numbers_list_http": 200,
+  "phone_number_id": null,
+  "phone_import_http": null,
+  "outbound_call_http": null,
+  "outbound_result": null
+}

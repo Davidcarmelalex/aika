@@ -1,0 +1,23 @@
+{
+  "ts": "2026-03-07T15:48:37.987747Z",
+  "owner_agent": "Aika-Architect",
+  "projects": {
+    "asgardia": 29,
+    "ayooni": 32,
+    "voltex": 48
+  },
+  "learning_tracks": {
+    "foundation": 42,
+    "execution": 25,
+    "scale": 42
+  },
+  "elevenlabs": {
+    "configured": true,
+    "reachable": false,
+    "voices_loaded": false,
+    "voice_map_entries": 4,
+    "checked_at": "2026-03-07T15:48:37.600941Z",
+    "http_error": 401
+  },
+  "output": "/root/asgardia/state/aika_skill_blueprint.json"
+}

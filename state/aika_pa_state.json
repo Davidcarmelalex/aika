@@ -1,0 +1,13 @@
+{
+  "ts": "2026-03-05T07:24:10.083826+00:00",
+  "pending_count": 1,
+  "top_10": [
+    {
+      "id": "tsk-0013",
+      "title": "Collect Hafiz CMO post-basic access request and privilege scope",
+      "score": 67,
+      "band": "high",
+      "priority": "high"
+    }
+  ]
+}
